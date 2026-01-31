@@ -1,5 +1,14 @@
+<!--
+Name: Shayaan Shah
+File: Assigemnt 1 - Main.html
+Date: 2026/01/30
+Description: An unformated document that needs proper HTML markup
+-->
+
+
+<!--Sets all the necessary HTML5 elements inculding thhe language, authour, styling via CSS -->
 <!DOCTYPE html>
-<html lang ="eng">
+<html lang ="en-US">
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="css" href="stylesheet.css">
@@ -8,6 +17,7 @@
 
 
 <body>
+    <!-- the html retrives the spesific styliziation from the CSS file, also put in the b tag to bold the letters and the br and em to break and stylize the text-->
     <p style="text-align: right;">
         <em><b>Dr. Eleanor Gaye</b><br> </em>
         <em>Awesome Science faculty<br></em>
@@ -25,11 +35,12 @@
         <br>UK
     </address>
     
+    <!--first header tag in the document-->
     <h1>Re: Eileen Dover university application</h1>
 
     Dear Eileen,
 
-
+    <!--use the p tag to break up the text into paragraphs -->
     <p>
         Thank you for your recent application to join us at the University of
         Awesome's science faculty to study as part of your
@@ -44,6 +55,7 @@
         however it would suit us better if you could start at the beginning of a
         semester; the start dates for each one are as follows:
     </p>
+    <!--Uses the ul tag to make an Unordered List-->
     <ul>
         <li>First semester: 9 September 2016</li>
         <li>Second semester: 15 January 2017</li>
@@ -63,18 +75,30 @@
         ideas you submitted we were most intrigued by are as follows, in order of
         priority:
     </p>
+    <!--Uses the ol tag to make an Ordered List-->
+    <ol>
+        <li>
+            Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
+            (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>).
+        </li>
+        
+        <li>
+            Measuring the effect on performance of funk bass players at temperatures
+            exceeding 30°C (86°F), when the audience size exponentially increases
+            (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>).
+        </li>
+        
+        <li>
+            HTML, Hypertext Markup Language, and CSS,
+            Cascading Style Sheets, constructs for representing musical scores.
+        </li>
+    </ol>
 
-    Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
-    (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>).
-    Measuring the effect on performance of funk bass players at temperatures
-    exceeding 30°C (86°F), when the audience size exponentially increases
-    (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>).
-    HTML, Hypertext Markup Language, and CSS,
-    Cascading Style Sheets, constructs for representing musical scores.
-
-    So please can you provide more information on each of these subjects,
-    including how long you'd expect the research to take, required staff and
-    other resources, and anything else you think we'd need to know? Thanks.
+    <p>
+        So please can you provide more information on each of these subjects,
+        including how long you'd expect the research to take, required staff and
+        other resources, and anything else you think we'd need to know? Thanks.
+    </p>
 
     <h3>Exotic dance moves</h3>
 
@@ -83,7 +107,9 @@
         did study exotic tribal dances. To answer your question, my
         favorite dances are as follows, with definitions:
     </p>
-<dl>
+
+
+<dl> <!--Uses the Dl tag to make a Definition List with the dt acting as the list term and the dd tag represting the desciption of the list-->
     <dt>Polynesian chicken dance</dt>
         <dd>
             A little known but very influential dance dating back as far as
