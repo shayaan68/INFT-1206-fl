@@ -16,20 +16,25 @@ ul {
   background-color: white;
   border: 5px solid purple;
   border-color: purple;
-
+  border-radius: 20px;
 
 }
 
 h1 {
-
   color: darkslategray;
-
-    border-bottom: purple;
+  border-bottom: dotted 10px purple;
+  font-size: 2rem;
   
 }
 
+h2 {
+  font-size: 1.5rem;
+}
 
 .job-title {
+
+  color: darkslategray;
+  
 
 
 }
