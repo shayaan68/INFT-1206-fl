@@ -2,6 +2,20 @@ html {
   background-color: white;
 }
 
-body {
+body { 
   font: 1.2em / 1.5 system-ui;
+  padding: 20px;
+  width: 500px;
+  background-color:#efefef;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+ul { 
+  background-color: white;
+  border: 5px solid purple;
+  border-color: purple;
+
+
 }
