@@ -17,8 +17,18 @@ ul {
   border: 5px solid purple;
   border-color: purple;
   border-radius: 20px;
-
+  color: green;
+  
 }
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color:darkgreen
+}
+
 
 h1 {
   color: darkslategray;
@@ -34,7 +44,4 @@ h2 {
 .job-title {
 
   color: darkslategray;
-  
-
-
 }
