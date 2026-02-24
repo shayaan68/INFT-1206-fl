@@ -2,7 +2,7 @@
 @font-face {
     font-family:"NewsCycle";
     src: 
-        url("Fonts/NewsCycle-Regular.ttf") format("truetype");
+        url("Fonts/News_Cycle./News_Cycle-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,11 +10,21 @@
 
 @font-face {
     font-family: "NewsCycle";
-    src: url("Fonts/NewsCycle-Bold.ttf") format("truetype");
+    src: url("Fonts/News_Cycle/NewsCycle-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
+
+
+@font-face {
+    font-family: "AlfaSlabOne";
+    src: url("Fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 
@@ -46,6 +56,7 @@ header {
   border-bottom: 5px solid #aa6666;
   font-family: "NewsCycle", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 footer {
@@ -56,3 +67,8 @@ footer p {
   text-align: center;
 }
 
+h2 {
+  font-family: "AlfaSlabOne", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
